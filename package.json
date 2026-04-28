@@ -1,0 +1,40 @@
+{
+  "name": "actionguard",
+  "version": "0.1.0",
+  "description": "Static analysis tool that audits Next.js Server Actions for security issues",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "actionguard": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sivva2/actionguard.git"
+  },
+  "keywords": [
+    "nextjs",
+    "security",
+    "linter",
+    "server-actions",
+    "static-analysis",
+    "typescript"
+  ],
+  "author": "Kevin Abaskaran <179109815+Sivva2@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sivva2/actionguard/issues"
+  },
+  "homepage": "https://github.com/Sivva2/actionguard#readme"
+}
