@@ -1,0 +1,14 @@
+# Build outputs
+dist/
+build/
+coverage/
+
+# Dependencies
+node_modules/
+
+# Generated
+*.tsbuildinfo
+package-lock.json
+
+# Test fixtures 
+tests/fixtures/
